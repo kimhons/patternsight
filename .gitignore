@@ -1,0 +1,1 @@
+node_modules/\n.next/\n.vercel/\n.env*\n*.log\ndist/\nbuild/\n.DS_Store

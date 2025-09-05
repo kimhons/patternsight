@@ -1,0 +1,224 @@
+{
+  "timestamp": "2025-09-03T23:59:56.230837",
+  "system": "Universal Lottery Prediction System - Real Data v1.0",
+  "lotteries_analyzed": 3,
+  "data_source": "NY Open Data API",
+  "reports": {
+    "megamillions": {
+      "lottery_type": "megamillions",
+      "lottery_name": "Mega Millions",
+      "total_draws_analyzed": 696,
+      "configuration": {
+        "main_numbers": "5 numbers from 1 to 70",
+        "special_ball": "1 from 1 to 25",
+        "draws_per_week": 2
+      },
+      "top_10_hot_numbers": {
+        "10": 65,
+        "17": 62,
+        "31": 62,
+        "3": 62,
+        "8": 60,
+        "14": 60,
+        "20": 60,
+        "24": 59,
+        "29": 58,
+        "64": 57
+      },
+      "top_10_cold_numbers": {
+        "49": 35,
+        "51": 36,
+        "1": 38,
+        "67": 41,
+        "65": 41,
+        "41": 41,
+        "23": 41,
+        "2": 42,
+        "28": 42,
+        "36": 42
+      },
+      "patterns": {
+        "consecutive_probability": 29.022988505747126,
+        "most_common_odd_even": [
+          [
+            2,
+            3
+          ],
+          227
+        ],
+        "average_sum": 173.94252873563218,
+        "std_sum": 43.788967886306985
+      },
+      "prediction": {
+        "main_numbers": [
+          10,
+          17,
+          29,
+          31,
+          64
+        ],
+        "special_number": null,
+        "confidence": "90.2%"
+      }
+    },
+    "luckyforlife": {
+      "lottery_type": "luckyforlife",
+      "lottery_name": "Lucky for Life",
+      "total_draws_analyzed": 2000,
+      "configuration": {
+        "main_numbers": "5 numbers from 1 to 48",
+        "special_ball": "1 from 1 to 18",
+        "draws_per_week": 2
+      },
+      "top_10_hot_numbers": {
+        "8": 191,
+        "13": 190,
+        "14": 190,
+        "57": 187,
+        "5": 186,
+        "21": 183,
+        "6": 182,
+        "44": 180,
+        "9": 180,
+        "26": 178
+      },
+      "top_10_cold_numbers": {
+        "20": 145,
+        "4": 146,
+        "17": 146,
+        "60": 146,
+        "43": 146,
+        "3": 148,
+        "54": 150,
+        "7": 152,
+        "47": 153,
+        "49": 155
+      },
+      "patterns": {
+        "consecutive_probability": 32.800000000000004,
+        "most_common_odd_even": [
+          [
+            3,
+            2
+          ],
+          646
+        ],
+        "average_sum": 151.696,
+        "std_sum": 37.71552179143224
+      },
+      "prediction": {
+        "main_numbers": [
+          5,
+          8,
+          13,
+          14,
+          21
+        ],
+        "special_number": null,
+        "confidence": "95.0%"
+      }
+    },
+    "pick10": {
+      "lottery_type": "pick10",
+      "lottery_name": "Pick 10",
+      "total_draws_analyzed": 2000,
+      "configuration": {
+        "main_numbers": "10 numbers from 1 to 80",
+        "special_ball": "None",
+        "draws_per_week": 14
+      },
+      "top_10_hot_numbers": {
+        "19": 532,
+        "7": 521,
+        "2": 517,
+        "23": 517,
+        "6": 513,
+        "18": 513,
+        "21": 510,
+        "4": 507,
+        "10": 507,
+        "12": 506
+      },
+      "top_10_cold_numbers": {
+        "60": 1,
+        "61": 2,
+        "58": 4,
+        "59": 5,
+        "57": 6,
+        "56": 6,
+        "55": 16,
+        "53": 20,
+        "54": 21,
+        "52": 35
+      },
+      "patterns": {
+        "consecutive_probability": 224.10000000000002,
+        "most_common_odd_even": [
+          [
+            5,
+            5
+          ],
+          590
+        ],
+        "average_sum": 211.684,
+        "std_sum": 50.6262791838389
+      },
+      "prediction": {
+        "main_numbers": [
+          2,
+          4,
+          6,
+          7,
+          12,
+          17,
+          18,
+          19,
+          21,
+          23
+        ],
+        "special_number": null,
+        "confidence": "95.0%"
+      }
+    }
+  },
+  "predictions": {
+    "megamillions": {
+      "main_numbers": [
+        10,
+        17,
+        29,
+        31,
+        64
+      ],
+      "special_number": null,
+      "confidence": "90.2%"
+    },
+    "luckyforlife": {
+      "main_numbers": [
+        5,
+        8,
+        13,
+        14,
+        21
+      ],
+      "special_number": null,
+      "confidence": "95.0%"
+    },
+    "pick10": {
+      "main_numbers": [
+        2,
+        4,
+        6,
+        7,
+        12,
+        17,
+        18,
+        19,
+        21,
+        23
+      ],
+      "special_number": null,
+      "confidence": "95.0%"
+    }
+  }
+}
