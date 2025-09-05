@@ -1,0 +1,18 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/api/generate-prediction/route": "/api/generate-prediction",
+  "/favicon.ico/route": "/favicon.ico",
+  "/about/page": "/about",
+  "/auth/signup/page": "/auth/signup",
+  "/contact/page": "/contact",
+  "/auth/signin/page": "/auth/signin",
+  "/cookies/page": "/cookies",
+  "/dashboard/page": "/dashboard",
+  "/features/page": "/features",
+  "/help/page": "/help",
+  "/page": "/",
+  "/pricing/page": "/pricing",
+  "/research/page": "/research",
+  "/privacy/page": "/privacy",
+  "/terms/page": "/terms"
+}

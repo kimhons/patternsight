@@ -3,10 +3,10 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { EnhancedUPPS_v3, PredictionResult, PillarScores } from '@/lib/core/enhanced-upps-v3';
-import { useAuth } from '@/components/contexts/AuthContextFixed';
+import { useAuth } from '@/components/ui/AuthContextFixed';
 import AuthModal from '@/components/forms/AuthModal';
 import SubscriptionModal from '@/components/forms/SubscriptionModal';
-import DisclaimerModal from '@/components/forms/DisclaimerModal';
+import DisclaimerModal from '@/components/ui/DisclaimerModal';
 import Footer from '@/components/layout/Footer';
 
 interface DashboardStats {

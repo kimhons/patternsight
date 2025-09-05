@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useAuth } from '@/components/contexts/AuthContextFixed';
+import { useAuth } from '@/components/ui/AuthContextFixed';
 
 interface SubscriptionModalProps {
   isOpen: boolean;

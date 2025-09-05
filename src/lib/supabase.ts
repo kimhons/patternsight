@@ -13,6 +13,9 @@ export const supabaseAdmin = createClient(
   process.env.SUPABASE_SERVICE_ROLE_KEY || 'sbp_ae0691ae744bc107ac486303a9bf8d4c4ac77e43'
 )
 
+// Export createClient for API routes
+export { createClient }
+
 // Database Types for PatternSight Cloud Platform
 export interface User {
   id: string
